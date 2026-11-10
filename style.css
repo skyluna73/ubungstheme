@@ -6,3 +6,11 @@ Version: 0.1
 body {
     background-color: lightblue;
 }
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 2rem;
+}
