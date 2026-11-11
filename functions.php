@@ -6,6 +6,7 @@ function ubungstheme_styles() {
 
 function ubungstheme_setup() {
     register_nav_menu('hauptmenue', 'Hauptnavigation');
+    register_nav_menu('footermenue', 'Footernavigation');
 }
 
 add_action('wp_enqueue_scripts', 'ubungstheme_styles');
